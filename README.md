@@ -15,15 +15,15 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-## Table of Contents
+## 📑 Table of Contents
 - [SaaS Products](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## SaaS Products
+## ☁️ SaaS Products
 
-### Core Platforms (SAST Tools)
+### 🏢 Core Platforms (SAST Tools)
 
 | Product | Company Size (Valuation/Market Cap) | Pricing & Free Tier | Description |
 |---|---|---|---|
@@ -41,9 +41,9 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[DeepSource](https://deepsource.io/)** | ~$100 Million | Free for open source. Teams start at $12/user/mo. | Automated code review and SAST platform with actionable insights. |
 | **[Kiuwan](https://www.kiuwan.com/)** (Idera) | Unknown | Custom Enterprise pricing. No free tier. | Application security and quality platform with SAST capabilities. |
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-### Dedicated SAST & Code Analysis Tools
+### 🔍 Dedicated SAST & Code Analysis Tools
 
 - **[ESLint](https://github.com/eslint/eslint)** (with security plugins) [![Stars](https://img.shields.io/github/stars/eslint/eslint?style=social&color=white)](https://github.com/eslint/eslint/stargazers)  
   Pluggable linting utility for JavaScript and JSX with security rule sets.
@@ -75,7 +75,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - **[SpotBugs](https://github.com/spotbugs/spotbugs)** [![Stars](https://img.shields.io/github/stars/spotbugs/spotbugs?style=social&color=white)](https://github.com/spotbugs/spotbugs/stargazers)  
   Successor to FindBugs for Java bytecode static analysis.
 
-### Additional Strong Open-Source Options
+### ⭐ Additional Strong Open-Source Options
 
 - **[OWASP Dependency-Check](https://github.com/jeremylong/DependencyCheck)** — Scans for vulnerable dependencies (complements SAST).
 - **[FindSecBugs](https://github.com/find-sec-bugs/find-sec-bugs)** — Security-focused SpotBugs plugin for Java.
@@ -86,7 +86,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 **Frameworks for building custom SAST**: Combine **Semgrep**, **SonarQube**, **Bandit**, and **CodeQL** with CI/CD pipelines for comprehensive open-source security scanning.
 
-## How to Contribute
+## 🤝 How to Contribute
 
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
@@ -95,7 +95,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 Star the repo if you find it useful!
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - SAST tools should be part of a broader security strategy including DAST, IAST, and manual review.
