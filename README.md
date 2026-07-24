@@ -23,78 +23,55 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ### Core Platforms (SAST Tools)
 
-- **[Checkmarx](https://checkmarx.com/)**  
-  Comprehensive SAST solution with deep code analysis and developer IDE integration.
-
-- **[Veracode](https://www.veracode.com/)**  
-  Cloud-based application security platform with strong SAST capabilities.
-
-- **[SonarQube](https://www.sonarqube.org/)**  
-  Popular code quality and security analysis platform with continuous inspection.
-
-- **[Snyk Code](https://snyk.io/product/snyk-code/)**  
-  Developer-first SAST with deep semantic analysis and fix suggestions.
-
-- **[Semgrep](https://semgrep.dev/)**  
-  Lightweight, rule-based SAST tool with fast scanning and custom rules.
-
-- **[Fortify](https://www.microfocus.com/en-us/products/static-code-analysis-sast)**  
-  Enterprise SAST solution with extensive language support and compliance features.
-
-- **[GitLab SAST](https://about.gitlab.com/stages-devops-lifecycle/secure/)**  
-  Integrated SAST within GitLab's DevSecOps platform.
-
-- **[CodeQL](https://codeql.github.com/)**  
-  Semantic code analysis engine used by GitHub for advanced vulnerability detection.
-
-- **[DeepSource](https://deepsource.io/)**  
-  Automated code review and SAST platform with actionable insights.
-
-- **[Kiuwan](https://www.kiuwan.com/)**  
-  Application security and quality platform with SAST capabilities.
-
-- **[Contrast Scan](https://www.contrastsecurity.com/)**  
-  Interactive application security testing with SAST components.
-
-- **[Mend SAST](https://www.mend.io/)**  
-  SAST solution focused on open-source and proprietary code security.
-
-- **[Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html)**  
-  Static analysis tool for finding critical defects and vulnerabilities.
+| Product | Company Size (Valuation/Market Cap) | Pricing & Free Tier | Description |
+|---|---|---|---|
+| **[CodeQL](https://codeql.github.com/)** (Microsoft) | ~$3 Trillion | Free for open-source. GitHub Advanced Security requires Enterprise. | Semantic code analysis engine used by GitHub for advanced vulnerability detection. |
+| **[Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html)** (Synopsys) | ~$85 Billion | Enterprise pricing. Free for open-source (Coverity Scan). | Static analysis tool for finding critical defects and vulnerabilities. |
+| **[Fortify](https://www.microfocus.com/en-us/products/static-code-analysis-sast)** (OpenText) | ~$10.5 Billion | Enterprise pricing only. No free tier. | Enterprise SAST solution with extensive language support and compliance features. |
+| **[Snyk Code](https://snyk.io/product/snyk-code/)** | $7.4 Billion | Free tier: 100 tests/month. Pro starts at $52/mo. | Developer-first SAST with deep semantic analysis and fix suggestions. |
+| **[GitLab SAST](https://about.gitlab.com/stages-devops-lifecycle/secure/)** | ~$6 Billion | Free tier: Basic SAST included. Ultimate starts at $99/user/mo. | Integrated SAST within GitLab's DevSecOps platform. |
+| **[SonarQube](https://www.sonarqube.org/)** | $4.7 Billion | Free community edition (open source). Developer Edition starts at $160/year. | Popular code quality and security analysis platform with continuous inspection. |
+| **[Veracode](https://www.veracode.com/)** | ~$2.5 Billion | Custom Enterprise pricing. No free tier. | Cloud-based application security platform with strong SAST capabilities. |
+| **[Checkmarx](https://checkmarx.com/)** | ~$1.15 Billion | Custom Enterprise pricing. No free tier. | Comprehensive SAST solution with deep code analysis and developer IDE integration. |
+| **[Contrast Scan](https://www.contrastsecurity.com/)** | >$1 Billion | Free tier: Contrast Community Edition. Enterprise varies. | Interactive application security testing with SAST components. |
+| **[Mend SAST](https://www.mend.io/)** | ~$1 Billion | Custom Enterprise pricing. Free for open source (Mend Bolt). | SAST solution focused on open-source and proprietary code security. |
+| **[Semgrep](https://semgrep.dev/)** | ~$300 Million | Free for individuals/open-source. Team starts at $20/user/mo. | Lightweight, rule-based SAST tool with fast scanning and custom rules. |
+| **[DeepSource](https://deepsource.io/)** | ~$100 Million | Free for open source. Teams start at $12/user/mo. | Automated code review and SAST platform with actionable insights. |
+| **[Kiuwan](https://www.kiuwan.com/)** (Idera) | Unknown | Custom Enterprise pricing. No free tier. | Application security and quality platform with SAST capabilities. |
 
 ## Open-Source GitHub Projects
 
 ### Dedicated SAST & Code Analysis Tools
 
-- **[SonarQube Community Edition](https://github.com/SonarSource/sonarqube)**  
-  Leading open-source code quality and security analysis platform with continuous inspection.
-
-- **[Semgrep](https://github.com/semgrep/semgrep)**  
-  Lightweight, fast, and highly customizable static analysis tool with community rules for many languages.
-
-- **[Bandit](https://github.com/PyCQA/bandit)**  
-  Python-specific static security analyzer with a focus on common vulnerabilities.
-
-- **[Brakeman](https://github.com/presidentbeef/brakeman)**  
-  Static analysis security scanner for Ruby on Rails applications.
-
-- **[ESLint](https://github.com/eslint/eslint)** (with security plugins)  
+- **[ESLint](https://github.com/eslint/eslint)** (with security plugins) [![Stars](https://img.shields.io/github/stars/eslint/eslint?style=social&color=white)](https://github.com/eslint/eslint/stargazers)  
   Pluggable linting utility for JavaScript and JSX with security rule sets.
 
-- **[SpotBugs](https://github.com/spotbugs/spotbugs)**  
-  Successor to FindBugs for Java bytecode static analysis.
-
-- **[PMD](https://github.com/pmd/pmd)**  
-  Source code analyzer for Java, JavaScript, and other languages with security rules.
-
-- **[CodeQL](https://github.com/github/codeql)**  
-  Open-source semantic code analysis engine used by GitHub for finding vulnerabilities.
-
-- **[Trivy](https://github.com/aquasecurity/trivy)**  
+- **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
   Comprehensive security scanner with SAST-like capabilities for code and dependencies.
 
-- **[Gosec](https://github.com/securego/gosec)**  
+- **[SonarQube Community Edition](https://github.com/SonarSource/sonarqube)** [![Stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=social&color=white)](https://github.com/SonarSource/sonarqube/stargazers)  
+  Leading open-source code quality and security analysis platform with continuous inspection.
+
+- **[Semgrep](https://github.com/semgrep/semgrep)** [![Stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)  
+  Lightweight, fast, and highly customizable static analysis tool with community rules for many languages.
+
+- **[Gosec](https://github.com/securego/gosec)** [![Stars](https://img.shields.io/github/stars/securego/gosec?style=social&color=white)](https://github.com/securego/gosec/stargazers)  
   Golang security checker with static analysis for common vulnerabilities.
+
+- **[CodeQL](https://github.com/github/codeql)** [![Stars](https://img.shields.io/github/stars/github/codeql?style=social&color=white)](https://github.com/github/codeql/stargazers)  
+  Open-source semantic code analysis engine used by GitHub for finding vulnerabilities.
+
+- **[Brakeman](https://github.com/presidentbeef/brakeman)** [![Stars](https://img.shields.io/github/stars/presidentbeef/brakeman?style=social&color=white)](https://github.com/presidentbeef/brakeman/stargazers)  
+  Static analysis security scanner for Ruby on Rails applications.
+
+- **[Bandit](https://github.com/PyCQA/bandit)** [![Stars](https://img.shields.io/github/stars/PyCQA/bandit?style=social&color=white)](https://github.com/PyCQA/bandit/stargazers)  
+  Python-specific static security analyzer with a focus on common vulnerabilities.
+
+- **[PMD](https://github.com/pmd/pmd)** [![Stars](https://img.shields.io/github/stars/pmd/pmd?style=social&color=white)](https://github.com/pmd/pmd/stargazers)  
+  Source code analyzer for Java, JavaScript, and other languages with security rules.
+
+- **[SpotBugs](https://github.com/spotbugs/spotbugs)** [![Stars](https://img.shields.io/github/stars/spotbugs/spotbugs?style=social&color=white)](https://github.com/spotbugs/spotbugs/stargazers)  
+  Successor to FindBugs for Java bytecode static analysis.
 
 ### Additional Strong Open-Source Options
 
