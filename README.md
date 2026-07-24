@@ -1,6 +1,6 @@
 ![Awesome SAST Banner](./assets/banner.svg)
 
-# Awesome-SAST
+# Awesome SAST - The Ultimate Curated List of Static Application Security Testing Tools
 ## Top Static Application Security Testing (SAST) Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
