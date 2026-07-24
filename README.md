@@ -1,3 +1,5 @@
+![Awesome SAST Banner](./assets/banner.svg)
+
 # Awesome-SAST
 ## Top Static Application Security Testing (SAST) Ecosystem
 
